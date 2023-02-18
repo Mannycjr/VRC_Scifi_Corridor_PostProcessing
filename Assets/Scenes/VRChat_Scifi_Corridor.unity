@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24539863, g: 0.3462945, b: 0.4703009, a: 1}
+  m_IndirectSpecularColor: {r: 0.24518141, g: 0.3454299, b: 0.46619648, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6318,7 +6318,7 @@ AudioSource:
   Priority: 114
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 5.103115
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -6328,22 +6328,22 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.19595873
-      value: 1
-      inSlope: -1.2845798
-      outSlope: -1.2845798
+      time: 0.44032824
+      value: 0.9997902
+      inSlope: -0.18859136
+      outSlope: -0.18859136
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.15439571
+      outWeight: 0.23569188
     - serializedVersion: 3
       time: 1
-      value: 0.19595873
-      inSlope: -0.19603707
-      outSlope: -0.19603707
+      value: 0
+      inSlope: -5.644251
+      outSlope: -5.644251
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.041525405
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -14532,13 +14532,13 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 0
+  SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -14552,17 +14552,26 @@ AudioSource:
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.78242683
+      value: 0.69035417
+      inSlope: -1.0020039
+      outSlope: -1.0020039
+      tangentMode: 0
+      weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -7.677581
+      outSlope: -7.677581
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0.1506937
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -19863,6 +19872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682431557}
   - component: {fileID: 682431558}
+  - component: {fileID: 682431559}
   m_Layer: 0
   m_Name: Main_Light
   m_TagString: Untagged
@@ -19945,6 +19955,24 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!220 &682431559
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682431556}
+  m_Enabled: 0
+  m_SourcePositions:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: -1}
+  - {x: 1, y: -1, z: 1}
+  - {x: 1, y: -1, z: -1}
+  - {x: -1, y: 1, z: 1}
+  - {x: -1, y: 1, z: -1}
+  - {x: -1, y: -1, z: 1}
+  - {x: -1, y: -1, z: -1}
+  m_Dering: 1
 --- !u!1 &696373692
 GameObject:
   m_ObjectHideFlags: 0
@@ -26847,7 +26875,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 110
+  MaxDistance: 500
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -26857,8 +26885,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.008646011
-      value: 0.7068558
+      time: 0
+      value: 1.0034103
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -26866,13 +26894,22 @@ AudioSource:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -1.0067114
-      outSlope: -1.0067114
+      time: 0.8874123
+      value: 0.70656383
+      inSlope: -1.1210238
+      outSlope: -1.1210238
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -11.779331
+      outSlope: -11.779331
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.124804914
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -28716,16 +28753,16 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.90314484
-      inSlope: -0.21677126
-      outSlope: -0.21677126
+      value: 0.9996948
+      inSlope: -0.04539547
+      outSlope: -0.04539547
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.67087805
+      outWeight: 0.15976013
     - serializedVersion: 3
-      time: 0.4240696
-      value: 0.7468451
+      time: 0.90885663
+      value: 0.86063755
       inSlope: -0.6190498
       outSlope: -0.6190498
       tangentMode: 0
@@ -28735,11 +28772,11 @@ AudioSource:
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: -1.680144
-      outSlope: -1.680144
+      inSlope: -18.037025
+      outSlope: -18.037025
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.20018756
+      inWeight: 0.054113053
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -30558,7 +30595,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 150
+  far clip plane: 1000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -36626,7 +36663,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.8512535
+      value: 1.0029793
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -36634,8 +36671,8 @@ AudioSource:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.58088994
-      value: 0.64394057
+      time: 0.9532349
+      value: 0.6887709
       inSlope: -1.146075
       outSlope: -1.146075
       tangentMode: 0
@@ -36645,11 +36682,11 @@ AudioSource:
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: -2.07969
-      outSlope: -2.07969
+      inSlope: -25.521778
+      outSlope: -25.521778
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.19700049
+      inWeight: 0.04350026
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -36785,7 +36822,7 @@ AudioSource:
   Priority: 117
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 150
+  MaxDistance: 500
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -36796,30 +36833,30 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.80282974
-      inSlope: 0.018310506
-      outSlope: 0.018310506
+      value: 1.0028305
+      inSlope: -0.033888865
+      outSlope: -0.033888865
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.3537365
+      outWeight: 0.6830577
     - serializedVersion: 3
-      time: 0.56914485
-      value: 0.5446565
-      inSlope: -0.98988587
-      outSlope: -0.98988587
+      time: 0.84780085
+      value: 0.7929323
+      inSlope: -0.58366805
+      outSlope: -0.58366805
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.11881124
       outWeight: 0.18756075
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: -1.6863211
-      outSlope: -1.6863211
+      inSlope: -15.3130665
+      outSlope: -15.3130665
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.15551263
+      inWeight: 0.13518879
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -42360,7 +42397,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -42370,22 +42407,22 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.27915943
-      value: 0.8616333
-      inSlope: -1.1358495
-      outSlope: -1.1358495
+      time: 0.31552112
+      value: 1.0020599
+      inSlope: -0.038599834
+      outSlope: -0.038599834
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.36125302
+      outWeight: 0.34256557
     - serializedVersion: 3
       time: 1
       value: 0.02078247
-      inSlope: -0.10690384
-      outSlope: -0.10690384
+      inSlope: -4.2856083
+      outSlope: -4.2856083
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.573771
+      inWeight: 0.04648531
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -52542,8 +52579,12 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: 1756835deef4aa04ba2a08b923fe9673, type: 2}
+  - {fileID: 2100000, guid: 518c3d25a7f9d444b9ef060d8ef68e90, type: 2}
+  - {fileID: 2100000, guid: cffecc649af16b84e82f815e9d2e4955, type: 2}
   - {fileID: 2100000, guid: 03365bfd384e91f45a5f70cdca913cd9, type: 2}
+  - {fileID: 2100000, guid: e9ec2e4e0d02c044db95383453cc488c, type: 2}
+  - {fileID: 2100000, guid: 19eb29a63b51fc94a94d66d707579432, type: 2}
+  - {fileID: 2100000, guid: 1756835deef4aa04ba2a08b923fe9673, type: 2}
   - {fileID: 2100000, guid: e7c1d9a1ea1eb9f4dbff7ef95df5e7dd, type: 2}
   - {fileID: 2100000, guid: 95923d824938a8845b046a9384b55470, type: 2}
   - {fileID: 2100000, guid: bc20e99557fd16f44ba17bc08617675d, type: 2}
@@ -52552,7 +52593,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f7a0eefb95e457341851a23f5a50e96b, type: 2}
   - {fileID: 2100000, guid: 909203ac3efaaf348a9cb26bbd364e73, type: 2}
   - {fileID: 2100000, guid: 81f28470c96a0dc408ed7e28434c9df7, type: 2}
-  - {fileID: 2100000, guid: e9ec2e4e0d02c044db95383453cc488c, type: 2}
   - {fileID: 2100000, guid: e56430a5085f1b94086f6035c8011dad, type: 2}
   - {fileID: 2100000, guid: f535e0b7e83fdf548bc38be3cd2a4a0a, type: 2}
   - {fileID: 2100000, guid: 2816cd290a4106a4bae157375c7cb3af, type: 2}
@@ -52562,9 +52602,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1f86b7ff8274cee4f90abe1f3b46753d, type: 2}
   - {fileID: 2100000, guid: 9add560d1b151304c86ba5cbacfcf4cf, type: 2}
   - {fileID: 2100000, guid: 4f677f47a19fae24e9d200dd3bd8807f, type: 2}
-  - {fileID: 2100000, guid: 19eb29a63b51fc94a94d66d707579432, type: 2}
-  - {fileID: 2100000, guid: cffecc649af16b84e82f815e9d2e4955, type: 2}
-  - {fileID: 2100000, guid: 518c3d25a7f9d444b9ef060d8ef68e90, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 2100000, guid: 98ec97c496fac904a811768eda3cc3f2, type: 2}
   - {fileID: 2100000, guid: 7e58f484362c8964c935841acfe5b79b, type: 2}
   - {fileID: 2100000, guid: e6acae49a9a4484409b4b460dbb1defb, type: 2}

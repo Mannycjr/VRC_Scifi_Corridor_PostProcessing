@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24539863, g: 0.3462945, b: 0.4703009, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -51220,6 +51220,7 @@ GameObject:
   - component: {fileID: 7111575897785925491}
   - component: {fileID: 3591906996255472209}
   - component: {fileID: 3231720197660963110}
+  - component: {fileID: 3480278762663670690}
   m_Layer: 0
   m_Name: VRCWorld
   m_TagString: Untagged
@@ -51227,6 +51228,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3480278762663670690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480278762663670689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 1
 --- !u!1 &3515448537078641497
 GameObject:
   m_ObjectHideFlags: 0
@@ -52944,7 +52958,6 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: d73eb8d57be58944eb1a182e182cbd71, type: 2}
   - {fileID: 2100000, guid: 1756835deef4aa04ba2a08b923fe9673, type: 2}
   - {fileID: 2100000, guid: 03365bfd384e91f45a5f70cdca913cd9, type: 2}
   - {fileID: 2100000, guid: e7c1d9a1ea1eb9f4dbff7ef95df5e7dd, type: 2}
@@ -52971,6 +52984,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: cffecc649af16b84e82f815e9d2e4955, type: 2}
   - {fileID: 2100000, guid: 518c3d25a7f9d444b9ef060d8ef68e90, type: 2}
   - {fileID: 2100000, guid: 98ec97c496fac904a811768eda3cc3f2, type: 2}
+  - {fileID: 2100000, guid: d73eb8d57be58944eb1a182e182cbd71, type: 2}
   - {fileID: 2100000, guid: 7e58f484362c8964c935841acfe5b79b, type: 2}
   - {fileID: 2100000, guid: e6acae49a9a4484409b4b460dbb1defb, type: 2}
   - {fileID: 2100000, guid: 68767cb0b84f2f646b8f841c92350840, type: 2}

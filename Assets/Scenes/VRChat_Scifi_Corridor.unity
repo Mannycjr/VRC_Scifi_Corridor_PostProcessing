@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.1450216, g: 0.34736276, b: 0.5333752, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8674,13 +8674,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220605646}
-  m_LocalRotation: {x: -0, y: -0.38268277, z: -0, w: 0.9238798}
-  m_LocalPosition: {x: -0.97999996, y: 0.5, z: 0.97}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.049, y: 1.342, z: -2.822}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_Children: []
+  m_Children:
+  - {fileID: 412613553}
   m_Father: {fileID: 1779901840}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -45.000004, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &220605654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16370,13 +16371,13 @@ GameObject:
   - component: {fileID: 412613553}
   - component: {fileID: 412613555}
   - component: {fileID: 412613554}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Crate_0_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &412613553
 Transform:
   m_ObjectHideFlags: 0
@@ -16384,15 +16385,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412613552}
-  m_LocalRotation: {x: -0, y: -0.34999976, z: -0, w: 0.9367498}
-  m_LocalPosition: {x: -14.192592, y: 0.8022896, z: 1.5134637}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.000000029802319, z: -0, w: 1}
+  m_LocalPosition: {x: -0.014999963, y: -0.49, z: -0.024199992}
+  m_LocalScale: {x: 2.6, y: 2.6, z: 2.6}
   m_Children:
   - {fileID: 1448206765}
   - {fileID: 677966261}
-  m_Father: {fileID: 1409107952}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -40.975, z: 0}
+  m_Father: {fileID: 220605653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &412613554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16402,7 +16403,7 @@ BoxCollider:
   m_GameObject: {fileID: 412613552}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.37997746, y: 0.381888, z: 0.39239714}
   m_Center: {x: -0.00047764182, y: 0.18963711, z: 0.008598134}
@@ -16413,7 +16414,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412613552}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: d6739938a2598c149aaf2e3fb7055a16, type: 2}
   m_Animations:
@@ -20211,7 +20212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 677966261}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: CreateCap_0_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20347,7 +20348,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -21519,7 +21520,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762130067}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.19, y: 0.3368, z: -2.812}
+  m_LocalPosition: {x: 7.19, y: 0.2186, z: -2.812}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
   - {fileID: 903987571}
@@ -32820,7 +32821,7 @@ Transform:
   - {fileID: 1677213322}
   - {fileID: 1089354811}
   m_Father: {fileID: 1409107952}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1119961614
 Animator:
@@ -36376,7 +36377,7 @@ Transform:
   - {fileID: 1465319757}
   - {fileID: 110968505}
   m_Father: {fileID: 1409107952}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1344161843
 BoxCollider:
@@ -37152,7 +37153,6 @@ Transform:
   - {fileID: 1649296563}
   - {fileID: 21615252}
   - {fileID: 1765666101}
-  - {fileID: 412613553}
   - {fileID: 1344161842}
   - {fileID: 1119961613}
   - {fileID: 1737732188}
@@ -37312,7 +37312,7 @@ GameObject:
   - component: {fileID: 1448206768}
   - component: {fileID: 1448206767}
   - component: {fileID: 1448206766}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ChamferBox001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37341,7 +37341,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448206764}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -43352,7 +43352,7 @@ Transform:
   - {fileID: 1272398747}
   - {fileID: 1890676033}
   m_Father: {fileID: 1409107952}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 112.927, z: 0}
 --- !u!111 &1737732189
 Animation:
@@ -47572,7 +47572,7 @@ GameObject:
   - component: {fileID: 2075253901}
   - component: {fileID: 2075253903}
   - component: {fileID: 2075253902}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Object001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51817,7 +51817,6 @@ GameObject:
   - component: {fileID: 7111575897785925491}
   - component: {fileID: 3591906996255472209}
   - component: {fileID: 3231720197660963110}
-  - component: {fileID: 3480278762663670690}
   m_Layer: 0
   m_Name: VRCWorld
   m_TagString: Untagged
@@ -51825,19 +51824,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3480278762663670690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3480278762663670689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 1
 --- !u!1 &3515448537078641497
 GameObject:
   m_ObjectHideFlags: 0

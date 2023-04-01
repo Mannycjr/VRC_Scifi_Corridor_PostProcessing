@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: e4a0d7bfcf622dc408fc3786798d0bde, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5c8d5031ce45e4962818ca2b5426a8cf, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1450216, g: 0.34736276, b: 0.5333752, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -51817,6 +51817,7 @@ GameObject:
   - component: {fileID: 7111575897785925491}
   - component: {fileID: 3591906996255472209}
   - component: {fileID: 3231720197660963110}
+  - component: {fileID: 3480278762663670690}
   m_Layer: 0
   m_Name: VRCWorld
   m_TagString: Untagged
@@ -51824,6 +51825,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3480278762663670690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480278762663670689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 1
 --- !u!1 &3515448537078641497
 GameObject:
   m_ObjectHideFlags: 0
@@ -53548,7 +53562,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: bc20e99557fd16f44ba17bc08617675d, type: 2}
   - {fileID: 2100000, guid: 3ab8e1f139362c34a8647d641adcc50d, type: 2}
   - {fileID: 2100000, guid: a412dd85b96d4b74686f2ac91987964d, type: 2}
-  - {fileID: 2100000, guid: 3f2ad0e037a942b42a9840d420b5474c, type: 2}
   - {fileID: 2100000, guid: f7a0eefb95e457341851a23f5a50e96b, type: 2}
   - {fileID: 2100000, guid: 909203ac3efaaf348a9cb26bbd364e73, type: 2}
   - {fileID: 2100000, guid: 81f28470c96a0dc408ed7e28434c9df7, type: 2}
@@ -53557,15 +53570,16 @@ MonoBehaviour:
   - {fileID: 2100000, guid: f535e0b7e83fdf548bc38be3cd2a4a0a, type: 2}
   - {fileID: 2100000, guid: 2816cd290a4106a4bae157375c7cb3af, type: 2}
   - {fileID: 2100000, guid: 1c987494452b85f4ab4cac3322415907, type: 2}
-  - {fileID: 2100000, guid: 19eb29a63b51fc94a94d66d707579432, type: 2}
   - {fileID: 2100000, guid: ecb1b2571b5e4bf4c832731d832922a1, type: 2}
   - {fileID: 2100000, guid: 8d84b8e22a9b78b41bbaad5ad4533d6e, type: 2}
   - {fileID: 2100000, guid: e68983c6ab4893f47803d0ca5bbed754, type: 2}
   - {fileID: 2100000, guid: 1f86b7ff8274cee4f90abe1f3b46753d, type: 2}
   - {fileID: 2100000, guid: 9add560d1b151304c86ba5cbacfcf4cf, type: 2}
   - {fileID: 2100000, guid: 4f677f47a19fae24e9d200dd3bd8807f, type: 2}
+  - {fileID: 2100000, guid: 3f2ad0e037a942b42a9840d420b5474c, type: 2}
   - {fileID: 2100000, guid: 55b36e21376ced34e9175ca17f8d6269, type: 2}
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 19eb29a63b51fc94a94d66d707579432, type: 2}
   - {fileID: 2100000, guid: cffecc649af16b84e82f815e9d2e4955, type: 2}
   - {fileID: 2100000, guid: 518c3d25a7f9d444b9ef060d8ef68e90, type: 2}
   - {fileID: 2100000, guid: 98ec97c496fac904a811768eda3cc3f2, type: 2}
